@@ -10,3 +10,7 @@ so the function should return 5 in this case.
 
 
 // Solution
+
+let countBits = function(n) {
+  return n.toString(2).replace(/0/g,'').length;
+}
